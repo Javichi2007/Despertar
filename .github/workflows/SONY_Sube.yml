@@ -1,1 +1,15 @@
 name: SONY_Baja
+
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Cada 5 minutos
+  workflow_dispatch:
+
+jobs:
+  ping_repl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pingar tu Repl para mantenerlo despierto
+        run: |
+          curl -I https://01ec6b65-fae3-49ff-9279-78efa7a12e02-00-3o667ni3ppjne.picard.replit.dev/ || echo "Error al hacer ping"
