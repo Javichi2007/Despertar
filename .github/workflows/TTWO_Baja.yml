@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Pingar tu Repl para mantenerlo despierto
         run: |
-          curl -I https://TTWOBaja.javier2007mel.repl.co || echo "Error al hacer ping"
+          curl -I https://01ec6b65-fae3-49ff-9279-78efa7a12e02-00-3o667ni3ppjne.picard.replit.dev/ || echo "Error al hacer ping"
