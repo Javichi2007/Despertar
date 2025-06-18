@@ -1,4 +1,4 @@
-name: SONY_Sube
+name: SONY_sube
 on:
   schedule:
     - cron: '*/5 * * * *'  # Cada 5 minutos
